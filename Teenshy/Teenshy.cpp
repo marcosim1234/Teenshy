@@ -7,13 +7,17 @@
 using namespace std;
 
 
+
 void gc(void) { cout << "GC: NITR0 STRING DETECTED\n\n"; }
 void gc2(void) { cout << "GC: ASCENDENCY STRING DETECTED\n\n"; }
 void ce(void) { cout << "GT: CHEAT ENGINE STRING DETECTED\n\n"; }
 
-void msgbox(void);
-void gc(void);
-void gc2(void);
+
+void msgbox(void) {
+	system("cls");
+	cout << "ERROR 406 \n\nNot Acceptable \nThe file must exist with a valid address, have a .txt extension and no spaces \n\nRestart the Program";
+}
+
 int main()
 {
 	system("color 6");
@@ -40,9 +44,6 @@ int main()
 			fulfilled = true;
 			ce();
 
-
-
-
 		}
 		else if (line.find("!1970/01/01:00:00:00!e2e832!") != std::string::npos) {
 			fulfilled = true;
@@ -54,6 +55,16 @@ int main()
 			fulfilled = true;
 			ce();
 		}
+		else if (line.find("2021/10/28:07:01:12") != std::string::npos) {
+			fulfilled = true;
+			gc();
+
+		}
+		else if (line.find("2021/10/04:02:34:44") != std::string::npos) {
+			fulfilled = true;
+			gc();
+
+		}
 	}
 
 
@@ -64,6 +75,3 @@ int main()
 	system("pause");
 	cin.get();
 }
-
-  
-
