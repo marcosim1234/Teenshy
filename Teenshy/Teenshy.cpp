@@ -28,8 +28,8 @@ int main()
 	string filename;
 	bool fulfilled = false;
 
-	cout << "TEENSHY 1.0.5 BY HSM CLAN\n";
-	cout << "THIS VERSION ONLY DETECT CHEAT ENGINE\n\n";
+	cout << "TEENSHY 1.0.51 BY HSM CLAN\n";
+	cout << "THIS VERSION ONLY DETECT CHEAT ENGINE AND NITR0 (ALL GITHUB RELEASES)\n\n";
 	cout << "File: ";
 	cin >> filename;
 	cout << "\n";
