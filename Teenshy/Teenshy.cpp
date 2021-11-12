@@ -40,27 +40,44 @@ int main()
 		msgbox();
 
 	while (getline(inputfile, line)) {
-		if (line.find("!1970/01/01:00:00:00!6bad9!") != std::string::npos) {
+		if (line.find("!1970/01/01:00:00:00!6bad9!") != std::string::npos) { //CHEAT ENGINE 64 BITS
 			fulfilled = true;
 			ce();
 
 		}
-		else if (line.find("!1970/01/01:00:00:00!e2e832!") != std::string::npos) {
+		else if (line.find("!1970/01/01:00:00:00!e2e832!") != std::string::npos) { //CHEAT ENGINE 32 BITS
 			fulfilled = true;
 			ce();
 
 
 		}
-		else if (line.find("!1970/01/01:00:00:00!e37cbf!") != std::string::npos) {
+		else if (line.find("!1970/01/01:00:00:00!e37cbf!") != std::string::npos) { //CHEAT ENGINE HIDDED VERSION
 			fulfilled = true;
 			ce();
 		}
-		else if (line.find("2021/10/28:07:01:12") != std::string::npos) {
+		else if (line.find("2021/10/28:07:01:12") != std::string::npos) { //Nitr0 0.10.9
 			fulfilled = true;
 			gc();
 
 		}
-		else if (line.find("2021/10/04:02:34:44") != std::string::npos) {
+		else if (line.find("2021/10/04:02:34:44") != std::string::npos) { //Nitr0.10.8
+			fulfilled = true;
+			gc();
+
+		}
+		else if (line.find("2021/10/03:03:33:29") != std::string::npos) { //Nitr0 0.10.7
+			fulfilled = true;
+			gc();
+
+
+		}
+		else if (line.find("2021/10/01:09:59:23") != std::string::npos) { //Nitr0 0.10.6
+			fulfilled = true;
+			gc();
+
+
+		}
+		else if (line.find("2021/09/30:19:37:58") != std::string::npos) { //Nitr0 0.10.5
 			fulfilled = true;
 			gc();
 
