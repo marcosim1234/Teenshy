@@ -28,7 +28,7 @@ int main()
 	string filename;
 	bool fulfilled = false;
 
-	cout << "TEENSHY 1.0 BY HSM CLAN\n";
+	cout << "TEENSHY 1.0.5 BY HSM CLAN\n";
 	cout << "THIS VERSION ONLY DETECT CHEAT ENGINE\n\n";
 	cout << "File: ";
 	cin >> filename;
