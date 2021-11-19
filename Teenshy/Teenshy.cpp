@@ -21,14 +21,14 @@ void msgbox(void) {
 int main()
 {
 	system("color 6");
-	system("Title TEENSHY SS TOOL FOR BEDROCK EDITION -MADE BY HSM CLAN");
+	system("Title TEENSHY SS TOOL FOR BEDROCK EDITION -MADE BY HSM CLAN AND GREEK NETWORK");
 
 	ifstream inputfile;
 	string line;
 	string filename;
 	bool fulfilled = false;
 
-	cout << "TEENSHY 1.0.51 BY HSM CLAN\n";
+	cout << "TEENSHY 1.0.6 BY HSM CLAN AND GREEK NETWORK\n";
 	cout << "THIS VERSION ONLY DETECT CHEAT ENGINE AND NITR0 (ALL GITHUB RELEASES)\n\n";
 	cout << "File: ";
 	cin >> filename;
@@ -53,6 +53,12 @@ int main()
 		else if (line.find("!1970/01/01:00:00:00!e37cbf!") != std::string::npos) { //CHEAT ENGINE HIDDED VERSION
 			fulfilled = true;
 			ce();
+
+		}
+		else if (line.find("2021/11/12:20:14:02") != std::string::npos) { //Nitr0 0.10.10
+			fulfilled = true;
+			gc();
+		     
 		}
 		else if (line.find("2021/10/28:07:01:12") != std::string::npos) { //Nitr0 0.10.9
 			fulfilled = true;
