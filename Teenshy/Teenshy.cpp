@@ -13,22 +13,23 @@ void gc2(void) { cout << "GC: ASCENDENCY STRING DETECTED\n\n"; }
 void ce(void) { cout << "GT: CHEAT ENGINE STRING DETECTED\n\n"; }
 
 
-void msgbox(void) {
+void msgbox(void)
+{
 	system("cls");
-	cout << "ERROR 406 \n\nNot Acceptable \nThe file must exist with a valid address, have a .txt extension and no spaces \n\nRestart the Program";
+	cout << "ERROR 406 \n\nNot Aceptable \nThe file must exist with a valid address, have a .txt extension and no spaces \n\nRestart the Program";
 }
 
 int main()
 {
 	system("color 6");
-	system("Title TEENSHY SS TOOL FOR BEDROCK EDITION -MADE BY HSM CLAN AND GREEK NETWORK");
+	system("Title TEENSHY SS TOOL FOR BEDROCK EDITION -MADE BY SSM GROUP");
 
 	ifstream inputfile;
 	string line;
 	string filename;
 	bool fulfilled = false;
 
-	cout << "TEENSHY 1.0.6 BY HSM CLAN AND GREEK NETWORK\n";
+	cout << "TEENSHY 1.0.6 BY SSM GROUP\n";
 	cout << "THIS VERSION ONLY DETECT CHEAT ENGINE AND NITR0 (ALL GITHUB RELEASES)\n\n";
 	cout << "File: ";
 	cin >> filename;
